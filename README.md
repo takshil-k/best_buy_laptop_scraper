@@ -63,6 +63,16 @@ pip install -r requirements.txt
 source local_config.sh
 ```
 
+Contents example:
+```bash
+source myvenv/bin/activate
+
+export MYSQL_HOST="localhost"
+export MYSQL_USER="your_user_name"
+export MYSQL_PASSWORD="your_password"
+export MYSQL_DATABASE="best_buy"
+```
+
 ## Run Jupyter notebook
 ```bash
 jupyter notebook
