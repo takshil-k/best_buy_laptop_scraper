@@ -47,7 +47,7 @@ USE best_buy;
 SELECT DATABASE();
 EXIT;
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON laptop_data.* TO 'username'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
